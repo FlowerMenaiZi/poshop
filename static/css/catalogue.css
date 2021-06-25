@@ -1,0 +1,41 @@
+html{
+  max-width: 750px;
+  margin: 0 auto;
+}
+body{
+  background:#f4f4f4;
+}
+#content{
+  background: #fff;
+  padding: 5px 0;
+}
+#content .content-img{
+  width: 95%;
+  margin: 10px auto;
+
+  overflow: hidden;
+}
+#content .content-img a{
+  display: block;
+}
+#content .content-img a img{
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+#shopInfo{
+  margin: 10px 0 70px 0;
+}
+#shopInfo .poShop{
+  text-align: center;
+  font-size: 0.96rem;
+  margin: 0.4rem;
+  font-weight: bold;
+  color: #929292;
+}
+#shopInfo .support{
+  text-align: center;
+  font-size: 0.64rem;
+  color: #929292;
+}

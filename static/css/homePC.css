@@ -1,0 +1,227 @@
+body, ul, li, h1, h2, h3, h4, h5, h6, p, form, dl, dt, dd, img, ::after, ::before {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+img {
+  border: 0 none;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+input {
+  border: 0 none;
+  outline: 0 none;
+}
+
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+#app {
+  width: 100%;
+}
+
+#header {
+  width: 100%;
+  height: 40px;
+  background: #f6f6f6;
+  min-width: 1100px;
+}
+
+#header .header {
+  width: 1100px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+#header .header ul {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#header .header ul li {
+  margin-left: 10px;
+}
+
+#header .header ul li a:hover {
+  color: #1A4C8F;
+}
+
+#nav {
+  width: 100%;
+  background: #fff;
+  min-width: 1100px;
+  height: 90px;
+}
+
+#nav .nav {
+  width: 1100px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#nav .nav .navLogo {
+  width: 20%;
+  border-right: 2px solid #000;
+  padding-right: 20px;
+}
+
+#nav .nav .navLink {
+  width: 40%;
+  height: 100%;
+}
+
+#nav .nav .navLink ul {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#banner {
+  width: 100%;
+  background: #f6f6f6;
+  min-width: 1100px;
+  padding: 20px 0;
+}
+
+#banner .banner {
+  width: 1100px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#banner .banner ul {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+#banner .banner .pointNav{
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+#banner .banner .pointNav ul{
+  width: 100px;
+  justify-content: space-between;
+}
+#banner .banner .pointNav ul li span{
+  display: block;
+  width: 10px;
+  height: 10px;
+  background: #000;
+  border-radius: 50%;
+  cursor: pointer;
+}
+#banner .banner .pointNav .cur{
+  background: #fff;
+}
+
+#newCom {
+  width: 100%;
+  background: #f6f6f6;
+  height: 400px;
+  min-width: 1100px;
+
+}
+#newCom .newCom{
+  width: 1100px;
+  height: 100%;
+  margin:  0 auto;
+}
+#newCom .newCom .title{
+  width: 250px;
+  height: 40px;
+  margin:0 auto;
+  text-align: center;
+  background: #065db7;
+  color: #fff;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+#commodity{
+  width:100%;
+  margin-top: 20px;
+}
+#commodity ul{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+#commodity ul li{
+  width: 200px;
+}
+#commodity ul li,#commodity ul li a,#commodity ul li a img{
+  display: block;
+}
+#commodity ul li .com-con{
+  width: 100%;
+  background: #fff;
+  padding: 10px 0;
+  box-shadow: 0 0 10px 2px #ccc;
+}
+#commodity ul li .com-con p{
+  width: 80%;
+  padding: 0 10px;
+}
+#commodity ul li .com-con .com-price-add{
+  margin-top: 10px;
+}
+#commodity ul li .com-con .com-price-add p{
+  font-size: 0.8rem;
+}
+#commodity ul li .com-con .com-price-add span{
+  font-size: 1.2rem;
+}
+#shopInfo{
+  background: #ededed;
+  padding: 20px 0;
+  width: 100%;
+  min-width: 1100px;
+}
+#shopInfo .shopInfo{
+  color: #929292;
+  font-size: 0.64rem;
+  text-align: center;
+}
+#shopInfo .shopInfo::before{
+  content: '——————————';
+  margin-right: 10px;
+}
+#shopInfo .shopInfo::after{
+  content: '——————————';
+  margin-left: 10px;
+}
+#shopInfo .poShop{
+  text-align: center;
+  font-size: 0.96rem;
+  margin: 0.4rem;
+  font-weight: bold;
+  color: #929292;
+}
+#shopInfo .support{
+  text-align: center;
+  font-size: 0.64rem;
+  color: #929292;
+}

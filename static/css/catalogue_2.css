@@ -1,0 +1,50 @@
+html{
+  max-width: 750px;
+  margin: 0 auto;
+}
+#showImg {
+  width: 100%;
+}
+
+#showImg ul {
+  width: 100%;
+}
+
+#showImg ul li {
+  width: 100%;
+  display: block;
+}
+
+#showImg ul li img {
+  display: block;
+  margin: 0 auto;
+}
+#showImg ul li:first-child{
+  height: 90vh;
+  position: relative;
+}
+#showImg ul li:first-child img {
+  width: 50%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-40%);
+}
+
+#shopInfo {
+  margin: 10px 0;
+}
+
+#shopInfo .poShop {
+  text-align: center;
+  font-size: 0.96rem;
+  margin: 0.4rem;
+  font-weight: bold;
+  color: #929292;
+}
+
+#shopInfo .support {
+  text-align: center;
+  font-size: 0.64rem;
+  color: #929292;
+}

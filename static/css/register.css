@@ -1,0 +1,59 @@
+html{
+  max-width: 750px;
+  margin: 0 auto;
+}
+.tip{
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-top: 60px;
+}
+.inputs{
+  margin-top: 30px;
+}
+.inputs ul{
+  width: 100%;
+}
+.inputs ul li{
+  width: 80%;
+  line-height: 54px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+.inputs ul li input{
+  width: 140px;
+  height: 50%;
+}
+.inputs ul li label{
+  font-weight: bold;
+}
+.inputs ul li:nth-child(1){
+  border-bottom: 1px solid #E1E1E1;
+}
+.inputs ul li:nth-child(3){
+  border-bottom: 1px solid #E1E1E1;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.inputs ul li .getCode{
+  background: #065DB7;
+  height: 30px;
+  width: 90px;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+}
+.inputs ul li .registerBtn{
+  width: 100%;
+  padding: 10px 0;
+  margin:0 auto;
+  background: #065DB7;
+  border: none;
+  color: #fff;
+  font-size: 1.1rem;
+}
+#tip{
+  margin-left: 35px;
+  font-size: 0.8rem;
+  color: #ff5b51;
+}

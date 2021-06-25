@@ -1,0 +1,248 @@
+body {
+  background: #f4f4f4;
+  position: relative;
+}
+html{
+  max-width: 750px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+#content {
+  width: 100%;
+  position: relative;
+  min-height: 450px;
+}
+
+#content .noItem {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#content .noItem .tip {
+  width: 60%;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  color: #A1A1A1;
+}
+
+#content .noItem .tip p {
+  margin-bottom: 10px;
+}
+
+#content .noItem .tip a {
+  color: #065DB7;
+  padding: 4px 10px;
+  border-radius: 30px;
+  border: 1px solid #065DB7;
+  line-height: 30px;
+}
+
+#content .hasItem ul li {
+  display: flex;
+  width: 94%;
+  padding: 10px 0;
+  background: #fff;
+  margin: 10px auto;
+  border-radius: 10px;
+  align-items: center;
+}
+
+#content .hasItem ul li .checkbox {
+  width: 10%;
+  text-align: center;
+}
+
+#content .hasItem ul li .itemImg {
+  width: 40%;
+  text-align: center;
+}
+
+#content .hasItem ul li .itemImg img {
+  width: 70%;
+}
+
+#content .hasItem ul li .itemInfo {
+  width: 45%;
+}
+
+#content .hasItem ul li .itemInfo .select {
+  width: 100px;
+  background: #F8F8F8;
+  border-radius: 10px;
+  border: none;
+}
+
+#content .hasItem ul li .itemInfo .itemName {
+  font-weight: bold;
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+}
+
+#content .hasItem ul li .itemInfo .reGoods {
+  color: #D1AF41;
+  font-size: 0.6rem;
+}
+
+#content .hasItem ul li .itemInfo .guarantee {
+  color: #47C372;
+  font-size: 0.6rem;
+  margin: 5px 0;
+}
+
+#content .hasItem ul li .priceAll {
+  display: flex;
+  justify-content: space-between;
+}
+
+#content .hasItem ul li .priceAll .num {
+  display: flex;
+}
+
+#content .hasItem ul li .priceAll .price {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+#content .hasItem ul li .priceAll .price span {
+  font-size: 1.1rem;
+}
+
+#content .hasItem ul li .priceAll .num span {
+  display: block;
+  background: #D7D7D7;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+}
+
+#content .hasItem ul li .priceAll .num :nth-child(1) {
+  border-radius: 5px 0 0 5px;
+}
+
+#content .hasItem ul li .priceAll .num :nth-child(3) {
+  border-radius: 0 5px 5px 0;
+}
+
+#content .hasItem ul li .priceAll .num p {
+  display: block;
+  background: #D7D7D7;
+  padding: 0 5px;
+  height: 25px;
+  text-align: center;
+  margin: 0 1px;
+  line-height: 25px;
+  font-size: 0.9rem;
+}
+@media screen and (min-width: 750px){
+  #content .hasItem ul li .priceAll .num p {
+    padding: 5px 10px;
+  }
+  #content .hasItem ul li .priceAll .num span{
+    padding: 5px 0;
+  }
+}
+
+#shopInfo {
+  width: 100%;
+  margin-bottom: 110px;
+  padding: 10px 0;
+}
+
+#shopInfo .poShop {
+  text-align: center;
+  font-size: 0.96rem;
+  margin: 0.4rem;
+  font-weight: bold;
+  color: #929292;
+}
+
+#shopInfo .support {
+  text-align: center;
+  font-size: 0.64rem;
+  color: #929292;
+}
+
+#footerNav {
+  width: 100%;
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 4px;
+  box-sizing: border-box;
+  position: fixed;
+  background: #fff;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#footerNav .settlement {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  border-bottom: 4px solid #ededed;
+}
+
+#footerNav .settlement .settRight {
+  display: flex;
+}
+#footerNav .settlement .settRight p{
+  font-size: 0.8rem;
+}
+#footerNav .settlement .settRight p span{
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+#footerNav .settlement .settRight #settlement{
+  padding: 5px 10px;
+  background: #065db7;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  margin-left: 10px;
+  font-size: 0.8rem;
+}
+
+#footerNav .f-Nav {
+  width: 100%;
+  height: 100%;
+  padding: 8px 0;
+}
+
+#footerNav .f-Nav ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#footerNav .f-Nav ul li a {
+  flex: 1;
+  -webkit-flex: 1;
+  display: block;
+}
+
+#footerNav .f-Nav ul li a div {
+  height: 100%;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#footerNav .f-Nav ul li a span {
+  font-size: 0.5rem;
+}
+
+.select {
+  color: #1A4C8F !important;
+}

@@ -1,0 +1,270 @@
+body{
+  background:#f4f4f4;
+}
+html{
+  max-width: 750px;
+  margin: 0 auto;
+}
+#activity{
+  width: 100%;
+  position: relative;
+}
+#activity .act-bg{
+  width: 100%;
+  height: 100%;
+}
+#activity .act-bg a{
+  display: block;
+}
+#activity .act-bg img{
+  width: 100%;
+  display: block;
+}
+#activity .act-con{
+  width: 100%;
+  position:absolute;
+  top:60%;
+  transform: translateY(-60%);
+  left:0;
+  right:0;
+  bottom:0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#activity .act-con .act-con-title{
+  padding: 0.2rem;
+  background: rgba(89, 89, 87, 0.91);
+  margin-bottom: 60px;
+}
+#activity .act-con .act-con-title p{
+  color: #fff;
+  font-size:1.2rem;
+}
+#activity .act-con .act-con-time p{
+  color: #fff;
+  text-align: center;
+}
+#activity .act-con .act-con-time p:nth-child(1){
+  font-size: 2rem;
+  font-weight: bold;
+}
+#activity .act-con .act-con-time p:nth-child(2){
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+#activity .act-con .act-con-time p:nth-child(3) a{
+  font-size:0.6rem;
+  color: #fff;
+}
+
+#commodity{
+  width:100%;
+  /*background: #ffab36;*/
+  padding: 10px 0;
+}
+#commodity ul{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#commodity ul li{
+  display: block;
+  width: 45%;
+}
+#commodity ul li:nth-child(3),#commodity ul li:nth-child(4){
+  margin-top: 10px;
+}
+#commodity ul li a{
+  display: block;
+}
+#commodity ul li a img{
+  display: block;
+}
+#commodity ul li .com-con{
+  width: 100%;
+  background: #fff;
+  padding: 10px 0;
+  box-shadow: 0 0 4px 2px #eeeeee;
+}
+#commodity ul li .com-con p{
+  width: 80%;
+  padding: 0 10px;
+}
+#commodity ul li .com-con .com-price-add{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+#commodity ul li .com-con .com-price-add p{
+  position: relative;
+  z-index: 99;
+  font-size: 0.8rem;
+}
+#commodity ul li .com-con .com-price-add span{
+  font-size: 1.2rem;
+}
+#commodity ul li .com-con .com-price-add img{
+  width:1.2rem;
+  height:1.2rem;
+}
+#coupon{
+  width: 100%;
+  background: #fff;
+  padding: 20px 0;
+}
+#coupon ul{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#coupon ul li{
+  width: 90%;
+  height: 76px;
+  background: url("../../assets/home/conpon.jpg") no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+  margin-bottom: 10px;
+}
+#coupon ul li:last-child{
+  margin-bottom: 0;
+}
+#coupon ul li .cou-price{
+  font-size: 1.2rem;
+  font-weight: bold;
+
+}
+#coupon ul li .cou-price span{
+  font-size: 0.6rem;
+  font-weight: normal;
+  margin-left: 2px;
+}
+#coupon ul li .cou-condition{
+  margin-right: 30px;
+}
+#coupon ul li .cou-condition p:first-child{
+  font-size: 1rem;
+  font-weight: bold;
+}
+#coupon ul li .cou-condition p:last-child{
+  font-size: 0.6rem;
+}
+#coupon ul li .get{
+  height: 100%;
+  width: 17%;
+}
+@media screen and (min-width: 750px){
+  #coupon ul li .get{
+    width: auto;
+  }
+}
+#coupon ul li .couponGet{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+}
+#newCom{
+  width: 100%;
+  background: #fff;
+  padding: 0.267rem 0;
+  overflow: hidden;
+}
+#newCom .newCom-title{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+#newCom .newCom-title p{
+  font-size: 1rem;
+  font-weight: bold;
+}
+#newCom .newCom-title p:last-child{
+  transform: skewX(-20deg);
+}
+#newCom .newCom-img{
+  margin-top: 0.267rem;
+  width: 100%;
+  height: 454.55px;
+}
+#newCom .newCom-img ul{
+  display: flex;
+  justify-content: space-between;
+  width:1300px;
+  background: #fff;
+}
+#newCom .newCom-img ul li{
+  width:300px;
+}
+#newCom .newCom-img ul li a{
+  display: block;
+  width: 100%;
+}
+#newCom .newCom-img ul li img{
+  width: 100%;
+}
+#shopAddress{
+  width: 100%;
+  background: #fff;
+  padding: 0.4rem 0;
+  overflow: hidden;
+}
+#shopAddress .shopAddress-title{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+#shopAddress .shopAddress-title p{
+  font-size: 1rem;
+  font-weight: bold;
+}
+#shopAddress .shopAddress-title p:last-child{
+  transform: skewX(-20deg);
+}
+#shopAddress .shopAddress-img{
+  width: 90%;
+  margin: 0.267rem auto;
+  background: #F4F4F4;
+  padding-bottom: 4px;
+}
+#shopAddress .shopAddress-img p{
+  font-size: 0.48rem;
+  color: #1A4C8F;
+}
+#shopInfo{
+  margin: 10px 0 70px 0;
+}
+#shopInfo .shopInfo{
+  color: #929292;
+  font-size: 0.64rem;
+  text-align: center;
+}
+#shopInfo .shopInfo::before{
+  content: '——————————';
+  margin-right: 10px;
+}
+#shopInfo .shopInfo::after{
+  content: '——————————';
+  margin-left: 10px;
+}
+#shopInfo .poShop{
+  text-align: center;
+  font-size: 0.96rem;
+  margin: 0.4rem;
+  font-weight: bold;
+  color: #929292;
+}
+#shopInfo .support{
+  text-align: center;
+  font-size: 0.64rem;
+  color: #929292;
+}

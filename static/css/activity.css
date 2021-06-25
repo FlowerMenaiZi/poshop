@@ -1,0 +1,141 @@
+html{
+  max-width: 750px;
+  margin: 0 auto;
+  background: #f4f4f4;
+}
+#header{
+  width: 100%;
+  padding: 10px 0;
+  background: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  box-shadow: 0 0 10px 1px #eee;
+}
+#header .headerLogo{
+  width: 100%;
+  text-align: center;
+}
+#header .headerLogo img{
+  width: 30%;
+}
+#content{
+  width: 100%;
+  padding: 20px 0;
+  background: #fff;
+}
+#content .act-time{
+  font-weight: bold;
+  color: #0E4C9F;
+  font-size: 1.2rem;
+  text-align: center;
+}
+#content .fullReduce{
+  color: #0E4C9F;
+  text-align: center;
+  font-size: 0.9rem;
+}
+#content .examples{
+  width: 70%;
+  padding: 5px 10px;
+  color: #fff;
+  font-size: 1rem;
+  background: #1A4C8F;
+  text-align: center;
+  margin:10px auto;
+}
+#content .useTime p:first-child{
+  color: #0E4C9F;
+  text-align: center;
+  margin: 10px 0 0 0;
+  font-size: 0.9rem;
+}
+#content .useTime p:nth-child(2){
+   color: #0E4C9F;
+   text-align: center;
+   font-size: 0.9rem;
+ }
+#content .useTime div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5px;
+}
+#content .useTime div span{
+  display: block;
+  padding: 5px 10px;
+  background: #1A4C8F;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+  margin-bottom: 5px;
+}
+#content .grantTime,#content .grantPosition{
+  color: #1A4C8F;
+  font-size: 0.5rem;
+  text-align: center;
+}
+#content .fullGift :first-child{
+  color: #0E4C9F;
+  text-align: center;
+  font-size: 0.9rem;
+}
+#content .fullGift span{
+  display: block;
+  width: 70%;
+  padding: 5px 10px;
+  color: #fff;
+  font-size: 1rem;
+  background: #1A4C8F;
+  text-align: center;
+  margin:10px auto;
+}
+#content .fullGift p:last-child{
+  color: #1A4C8F;
+  text-align: center;
+  font-size: 0.5rem;
+}
+#content .fullGift .gift{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#content .fullGift .gift div:first-child{
+  width: 30%;
+}
+#content .fullGift .gift div:last-child{
+  width: 30%;
+}
+#content .tips{
+  color: #1A4C8F;
+  text-align: center;
+  font-size: 0.5rem;
+  margin-top: 10px;
+}
+#content .explain{
+  color: #1A4C8F;
+  text-align: center;
+  font-size: 0.5rem;
+}
+.line{
+  width: 80%;
+  height: 1px;
+  background-color: #1457B1;
+  margin: 10px auto;
+}
+#shopInfo{
+  background: #f4f4f4;
+  padding: 10px 0;
+}
+#shopInfo .poShop{
+  text-align: center;
+  font-size: 0.96rem;
+  margin: 0.4rem;
+  font-weight: bold;
+  color: #929292;
+}
+#shopInfo .support{
+  text-align: center;
+  font-size: 0.64rem;
+  color: #929292;
+}
