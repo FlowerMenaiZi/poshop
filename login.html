@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>PO SHOP-登录</title>
+  <link rel="stylesheet" href="./static/css/reset.css">
+  <link rel="stylesheet" href="./static/css/login.css">
+</head>
+<body>
+  <div id="app">
+    <p class="tip">登录后继续操作</p>
+    <div class="inputs">
+      <ul>
+        <li>
+          <label>手机号</label>
+          <input type="number" placeholder="请输入手机号" oninput="if(value.length>11)value=value.slice(0,11)" id="phoneNumber">
+        </li>
+        <i id="tip"></i>
+        <li>
+          <label>验证码</label>
+          <input type="number" placeholder="请输入验证码" oninput="if(value.length>6)value=value.slice(0,6)" id="codeNumber">
+          <button class="getCode" id="getCode">获取验证码</button>
+        </li>
+        <li>
+          <button class="loginBtn" id="loginBtn">登录</button>
+        </li>
+        <li>
+          <a href="./register.html" class="registerA">注册</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</body>
+<script src="static/js/jquery-3.4.1.min.js"></script>
+<script src="static/js/cookie.js"></script>
+<script src="static/js/login.js"></script>
+</html>
